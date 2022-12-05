@@ -313,7 +313,6 @@ ul {
   text-align: center;
 }
 .section__title {
-  font-weight: 600;
   padding-bottom: 2rem;
 }
 .testimonials__container img {
@@ -324,7 +323,7 @@ ul {
   margin: 0 auto;
   border-radius: 50%;
   object-fit: cover;
-  z-index: 100;
+  z-index: 12;
   padding-bottom: .5rem;
 }
 
@@ -356,3 +355,74 @@ ul {
 .testimonials__card-info {
   line-height: 1.5rem;
 }
+
+/* === About Us === */
+
+.about-us {
+  position: relative;
+}
+.about-us__data {
+  text-align: center;
+}
+.about-us__title {
+  padding-bottom: 1rem;
+}
+.about-us__subtitle {
+  line-height: 1.5rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: .25px;
+}
+.about-us__container iframe {
+  display: block;
+  position: relative;
+  width: 350px;
+  margin: 1.5rem auto;
+}
+
+/* === Footer === */
+
+.footer {
+  background: black;
+}
+.footer__logo {
+  color: white;
+  letter-spacing: .5px;
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.footer__logo img {
+  height: 3.5rem;
+}
+.footer__title {
+  color: white;
+  margin-bottom: .5rem;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  color: white;
+  padding-bottom: 1.5rem;
+}
+
+.footer__links-item a {
+  color: white;
+}
+.footer__social-list{
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.social-icon {
+  font-size: 2.5rem;
+  color: white;
+}
+.contact-icon {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
