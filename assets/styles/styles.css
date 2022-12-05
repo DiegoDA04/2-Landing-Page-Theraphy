@@ -106,7 +106,6 @@ ul {
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 1023px) {
   .nav__menu {
     position: fixed;
@@ -172,3 +171,24 @@ ul {
   background-color: #003C89;
 }
 
+/* === Services === */
+
+.services__data {
+  text-align: center;
+}
+.services__description {
+  margin-bottom: 2.5rem;
+  letter-spacing: .25px;
+}
+.services__title {
+  color: #3C5BA9;
+  margin: .5rem 0;
+}
+
+.services__service img {
+  display: block;
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+
+}
