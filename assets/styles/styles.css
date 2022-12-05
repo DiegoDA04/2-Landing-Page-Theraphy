@@ -190,5 +190,30 @@ ul {
   position: relative;
   width: 350px;
   margin: 0 auto;
+  padding-bottom: 1rem;
+}
 
+/* === About The App === */
+
+.about-the-app {
+  background: #0069D0;
+}
+
+.about-the-app__data {
+  text-align: center;
+}
+.about-the-app__description {
+  color: white;
+  margin-bottom: 2.5rem;
+  letter-spacing: .25px;
+}
+.about-the-app__title {
+  color: white;
+  padding-bottom: 1rem;
+}
+.about-the-app__container iframe {
+  display: block;
+  position: relative;
+  width: 450px;
+  margin: 1.5rem auto;
 }
