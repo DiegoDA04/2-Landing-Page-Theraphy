@@ -1,0 +1,174 @@
+
+/* Variables CSS */
+
+:root {
+  --header-height: 3.5rem;
+
+  /*  Color base  */
+  --hue-color: 210;
+
+  --first-color: hsl(var(--hue-color),100%, 41%);
+  --first-color-secundary: hsl(var(--hue-color),100%, 60%);
+}
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:'IBM Plex Sans', sans-serif;;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+
+}
+ul {
+  list-style: none;
+}
+
+/* Layout */
+
+.section {
+  padding: 4.5rem 0 2rem;
+}
+.container {
+  max-width: 768px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.header {
+  width: 100%;
+  background-color: #007AF0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: background .3s;
+}
+
+/* === Navigation === */
+
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo,
+.nav__toggle {
+  color: white;
+  letter-spacing: .5px;
+  display: flex;
+}
+.nav__logo {
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.nav__logo img {
+  width: 2.5rem;
+}
+
+.nav__toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav__list {
+  padding: 5rem  0 0 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+.nav__link {
+  color: black;
+  transition: color .3s;
+}
+.nav__link:hover {
+  color: var(--first-color);
+}
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .nav__menu {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: -100%;
+    width: 60%;
+    height: 100%;
+    transition: right .3s;
+  }
+}
+
+.show-menu {
+  right: 0;
+}
+
+/* === Hero === */
+
+.hero{
+  color: white;
+  position: relative;
+  padding-bottom: 0;
+  background-color: #0069D0;
+}
+
+.hero__container {
+  padding-top: 4rem;
+  row-gap: 3rem;
+}
+
+.hero__data {
+  text-align: center;
+}
+.hero__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: .5rem 0;
+}
+.hero__description {
+  margin-bottom: 2.5rem;
+  letter-spacing: .25px;
+}
+.hero__img {
+  display: block;
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+}
+
+/* === Button === */
+
+.button {
+  display: inline-block;
+  background-color: #003A79;
+  padding: 18px 40px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.button:hover {
+  background-color: #003C89;
+}
+
