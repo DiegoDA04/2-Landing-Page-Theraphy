@@ -240,6 +240,9 @@ ul {
   position: relative;
   padding-bottom: 0;
 }
+.physiotherapist-program__container span {
+  color: #003A79;
+}
 .physiotherapist_program__data {
   text-align: center;
 }
@@ -273,6 +276,7 @@ ul {
 }
 
 /* === Physiotherapist Services === */
+
 .physiotherapist-services {
   position: relative;
   padding-bottom: 0;
@@ -296,4 +300,60 @@ ul {
   width: 350px;
   margin: 0 auto;
   padding-bottom: 1rem;
+}
+
+/* === Testimonials === */
+
+.testimonials {
+  position: relative;
+  background-color: #0069D0;
+}
+.section__data {
+  color: white;
+  text-align: center;
+}
+.section__title {
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.testimonials__container img {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 100;
+  padding-bottom: .5rem;
+}
+
+/* === Testimonials Cards === */
+
+.testimonials__card {
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  display: block;
+  padding-top: 1.5rem;
+  position: relative;
+  width: 350px;
+  background: #4070F4;
+  margin-bottom: 1.5rem;
+}
+
+.testimonials__card span {
+  color: #003C89;
+}
+.testimonials__card-description {
+  text-align: center;
+  background: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1.5rem;
+}
+.testimonials__card-name {
+  padding-bottom: .5rem;
+}
+.testimonials__card-info {
+  line-height: 1.5rem;
 }
