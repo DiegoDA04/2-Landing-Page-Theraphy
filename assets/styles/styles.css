@@ -332,13 +332,12 @@ ul {
 
 .testimonials__card {
   border-radius: 1.5rem;
-  margin: 0 auto;
   display: block;
   padding-top: 1.5rem;
   position: relative;
   width: 350px;
   background: #4070F4;
-  margin-bottom: 1.5rem;
+  margin: 0 auto 1.5rem;
 }
 
 .testimonials__card span {
