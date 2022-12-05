@@ -426,3 +426,102 @@ ul {
   padding-right: 1rem;
 }
 
+/*  ==== Break Points ==== */
+
+/* Small Devices */
+@media screen and (max-width: 340px) {
+
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* === Hero === */
+  .hero__img {
+    width: 225px;
+  }
+  .hero__title {
+    font-size: 1.5rem;
+  }
+  .hero__description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .hero__triangle {
+    height: 175px;
+  }
+
+  /* === Services === */
+  .services__title {
+    font-size: 1.2rem;
+  }
+  .services__description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .services__container img {
+    width: 225px;
+  }
+  /* === About The App === */
+  .about-the-app__title {
+    font-size: 1.5rem;
+  }
+  .about-the-app__description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .about-the-app__container iframe {
+    width: 250px;
+  }
+
+  /* === Physiotherapist Program === */
+
+  .physiotherapist-program__container img {
+    width: 225px;
+  }
+  .physiotherapist-program__triangle {
+    width: 325px;
+    height: 350px;
+  }
+
+  /* === Physiotherapist Services === */
+
+  .physiotherapist-services__title {
+    font-size: 1.2rem;
+  }
+  .physiotherapist-services__description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .physiotherapist-services__container img {
+    width: 225px;
+  }
+
+  /* === Testimonials === */
+
+  .testimonials__card {
+    width: 250px;
+  }
+
+  /* === Testimonials === */
+  .about-us__container iframe {
+    width: 250px;
+  }
+
+  /* === Footer === */
+  .footer__title {
+    font-size: 1rem;
+  }
+  .footer__links-item {
+    font-size: 0.9rem;
+  }
+  .footer__contact-item {
+    font-size: 0.8rem;
+  }
+  .contact-icon {
+    font-size: 1.2rem;
+  }
+  .social-icon {
+    font-size: 1.7rem;
+  }
+}
