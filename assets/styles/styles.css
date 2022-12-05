@@ -138,6 +138,7 @@ ul {
 
 .hero__data {
   text-align: center;
+
 }
 .hero__title {
   font-size: 2rem;
@@ -147,12 +148,24 @@ ul {
 .hero__description {
   margin-bottom: 2.5rem;
   letter-spacing: .25px;
+  line-height: 1.5rem;
 }
 .hero__img {
   display: block;
   position: relative;
   width: 350px;
   margin: 0 auto;
+  z-index: 2;
+}
+.hero__triangle {
+  height: 305px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  width: 305px;
+  background-color: #003A79;
+  z-index: 0;
 }
 
 /* === Button === */
@@ -177,6 +190,7 @@ ul {
   text-align: center;
 }
 .services__description {
+  line-height: 1.5rem;
   margin-bottom: 2.5rem;
   letter-spacing: .25px;
 }
@@ -197,6 +211,7 @@ ul {
 
 .about-the-app {
   background: #0069D0;
+  position: relative;
 }
 
 .about-the-app__data {
@@ -204,6 +219,7 @@ ul {
 }
 .about-the-app__description {
   color: white;
+  line-height: 1.5rem;
   margin-bottom: 2.5rem;
   letter-spacing: .25px;
 }
@@ -216,4 +232,41 @@ ul {
   position: relative;
   width: 350px;
   margin: 1.5rem auto;
+}
+
+/* === Physiotherapist Program === */
+
+.physiotherapist-program {
+  position: relative;
+  padding-bottom: 0;
+}
+.physiotherapist_program__data {
+  text-align: center;
+}
+.physiotherapist-program__title {
+  padding-bottom: 1rem;
+}
+
+.physiotherapist-program__description {
+  margin-bottom: 2.5rem;
+  letter-spacing: .25px;
+  line-height: 1.5rem;
+}
+.physiotherapist-program__container img {
+  display: block;
+  position: relative;
+  width: 300px;
+  padding-top: 1rem;
+  margin: 0 auto;
+  z-index: 10;
+}
+.physiotherapist-program__triangle {
+  height: 450px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  width: 450px;
+  background-color: #003A79;
+  z-index: 0;
 }
