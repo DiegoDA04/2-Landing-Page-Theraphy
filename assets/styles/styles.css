@@ -271,3 +271,29 @@ ul {
   background-color: #003A79;
   z-index: 0;
 }
+
+/* === Physiotherapist Services === */
+.physiotherapist-services {
+  position: relative;
+  padding-bottom: 0;
+}
+.physiotherapist-services__data {
+  text-align: center;
+}
+.physiotherapist-services__description {
+  line-height: 1.5rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: .25px;
+}
+.physiotherapist-services__title {
+  color: #3C5BA9;
+  margin: .5rem 0;
+}
+
+.physiotherapist-services__service img {
+  display: block;
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
