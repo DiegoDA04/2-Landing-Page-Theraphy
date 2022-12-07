@@ -174,6 +174,7 @@ ul {
   display: inline-block;
   background-color: #003A79;
   padding: 18px 40px;
+  margin-bottom: 1.5rem;
   cursor: pointer;
   color: white;
   font-weight: 600;
@@ -328,7 +329,9 @@ ul {
 }
 
 /* === Testimonials Cards === */
-
+.testimonials__container{
+  padding-bottom: 4rem;
+}
 .testimonials__card {
   border-radius: 1.5rem;
   display: block;
@@ -361,6 +364,7 @@ ul {
 .about-us {
   position: relative;
 }
+
 .about-us__data {
   text-align: center;
 }
@@ -385,6 +389,7 @@ ul {
 .footer {
   background: black;
 }
+
 .footer__logo {
   color: white;
   letter-spacing: .5px;
@@ -534,6 +539,7 @@ ul {
   .container {
     margin-left: 2rem;
     margin-right: 2rem;
+    max-width: none;
   }
   .nav{
     height: calc(var(--header-height) + 1rem);
@@ -639,6 +645,236 @@ ul {
     padding-left: 1.5rem;
   }
   /* === Footer === */
+  .footer__logo {
+    font-size: 1.5rem;
+  }
+  .footer__logo img {
+    height: 4.5rem;
+  }
+  .footer__title {
+    font-size: 1.5rem;
+  }
+  .footer__links-item {
+    font-size: 1rem;
+  }
+  .footer__contact-item {
+    font-size: 1rem;
+  }
+  .contact-icon {
+    font-size: 1.2rem;
+  }
+  .social-icon {
+    font-size: 2.5rem;
+  }
+}
+
+/* Desktop - 1024px */
+@media screen and (min-width: 1024px) {
+
+  .container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .section {
+    padding: 5rem 0 0;
+  }
+  .nav{
+    height: calc(var(--header-height) + 1rem);
+  }
+  .nav__menu {
+    width: initial;
+  }
+  .nav__logo {
+    font-size: 1.5rem;
+  }
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+  .nav__logo img {
+    width: 3.5rem;
+  }
+  .nav__list {
+    flex-direction: row;
+    column-gap: 2rem;
+    padding: 0;
+  }
+  .nav__link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* === Hero === */
+  .hero__img {
+    width: 475px;
+  }
+  .hero__title {
+    margin: .75rem 0 1.25rem;
+  }
+  .hero__description {
+    width: 445px;
+    margin-bottom: 3rem;
+  }
+  .hero__data {
+    text-align: left;
+  }
+  .hero__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+  .button {
+    font-size: 1.25rem;
+
+  }
+  .hero__triangle {
+    height: 80%;
+    width: 40%;
+  }
+
+  /* === Services === */
+  .services__data {
+    text-align: left;
+  }
+  .services__service {
+    display: flex;
+    column-gap: 3rem;
+  }
+  .services__title {
+    font-size: 2rem;
+  }
+  .services-middle {
+    flex-direction: row-reverse;
+  }
+  .services__description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .services__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .services__container img {
+    width: 375px;
+  }
+  /* === About The App === */
+  .about-the-app__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-bottom: 4rem;
+    column-gap: 2rem;
+  }
+  .about-the-app__data {
+    text-align: left;
+  }
+  .about-the-app__title {
+    font-size: 2rem;
+  }
+  .about-the-app__description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .about-the-app__container iframe {
+    width: 525px;
+  }
+
+  /* === Physiotherapist Program === */
+  .physiotherapist-program__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 4rem;
+    align-items: center;
+  }
+  .physiotherapist_program__data {
+    text-align: left;
+  }
+  .physiotherapist-program__title {
+    font-size: 2rem;
+  }
+  .physiotherapist-program__description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .physiotherapist-program__container img {
+    width: 325px;
+  }
+  .physiotherapist-program__triangle {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* === Physiotherapist Services === */
+  .physiotherapist-services__service  {
+    display: flex;
+    column-gap: 3rem;
+  }
+  .physiotherapist-services__container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    padding-bottom: 4rem;
+  }
+  .physiotherapist-services__data{
+    text-align: left;
+  }
+  .physiotherapist-services__title {
+    font-size: 2rem;
+  }
+  .physiotherapist-services__description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .physiotherapist-services__container img {
+    width: 375px;
+  }
+
+  /* === Testimonials === */
+  .testimonials__cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+  .testimonials__card-description {
+    height: 55%;
+  }
+  /* === Physiotherapist Services === */
+  .about-us__title {
+    font-size: 2rem;
+  }
+  .about-us__subtitle {
+    font-size: 1.25rem;
+  }
+  .about-us__container iframe {
+    width: 575px;
+  }
+  /* === Testimonials === */
+  .section__title {
+    font-size: 2rem;
+  }
+  .testimonials__card {
+    width: 450px;
+  }
+  .testimonials__card-description {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  /* === About Us === */
+  .about-us__container {
+    display: flex;
+  }
+  .about-us__data {
+    text-align: left;
+  }
+  /* === Footer === */
+  .footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .footer__logo {
     font-size: 1.5rem;
   }
